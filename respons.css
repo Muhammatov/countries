@@ -1,0 +1,47 @@
+@media screen and (max-width: 560px) {
+
+     .CountSearch{
+          max-width: 500px;
+          width: 100%;
+          padding: 15px 0px;
+
+          .full{
+               display: flex;
+               gap: 15px;
+          }
+     }
+}
+@media screen and (max-width: 420px) {
+
+     .CountSearch{
+          max-width: 400px;
+          width: 100%;
+          padding: 15px 10px;
+
+          .full{
+               display: flex;
+               gap: 15px;
+               flex-wrap: wrap;
+               align-items: center;
+               justify-content: center;
+               
+               .button{
+                    max-width: 350px;
+                    width: 100%;
+
+               }
+          }
+          .result{
+               width: 100%;
+               
+
+               .wrapper-result{
+                    padding: 10px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 20px;
+               }
+          }
+
+     }
+}
